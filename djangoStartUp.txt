@@ -1,0 +1,17 @@
+1. Create virtual enviornment with virtualenv or similar packages
+2. Install Django and create a project
+3. Set up database with migrate commands
+4. Create a superuser
+5. Create a folder for the Django apps
+6. Create a folder for Django apps for the core view (apps/core)
+	- Create the base template
+7. Create view for the frontpage and a very basic template
+8. Check everything is working real quick
+(password = 12345)
+
+Part 2:
+1. Create folder and app for the store app
+2. Get list of products and show on the frontpage
+3. Show detail view for a product
+4. Show categories in the menu
+5. Show detail view for a category
