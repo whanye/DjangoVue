@@ -4,7 +4,7 @@ from apps.store.models import Product
 
 # Create your views here.
 def frontpage(request):
-    products = Product.objects.all() #Get all the products in dict
+    products = Product.objects.filter(is_featured=True) #Get all the products in dict
     context = {
         'products': products
     }
@@ -12,3 +12,6 @@ def frontpage(request):
 
 def contact(request):
     return render(request, 'contact.html')
+
+def about(request):
+    return render(request, 'about.html')
